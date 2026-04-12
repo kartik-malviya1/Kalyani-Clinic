@@ -7,7 +7,7 @@ export function AboutSection() {
 
   return (
     <section className="about-sec" id="about">
-      <div className="lg:about-intro reveal sm:block hidden" ref={revealRef}>
+      <div className="lg:about-intro  reveal hidden">
         <div className="s-label">Our Specialist</div>
         <h2 className="s-title">
           Expert care. <em>Lasting results.</em>
