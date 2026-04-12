@@ -9,6 +9,9 @@
 ══════════════════════════════════════════ */
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 :root{
+  --color-cream: var(--cream);
+  --color-cream2: var(--cream2);
+  --color-cream3: var(--cream3);
   --gold: #b8924a;
   --gold2: #c9a45e;
   --gold3: #e8c87a;
@@ -33,6 +36,7 @@
   --glass-border2:rgba(255,255,255,0.35);
   --shadow:0 8px 32px rgba(26,20,16,0.12);
   --shadow2:0 24px 64px rgba(26,20,16,0.14);
+  --cream3:#E8DDD0;
   --font-sans: 'Jost', sans-serif;
   --font-serif: 'Cormorant Garamond', serif;
 }
@@ -318,6 +322,9 @@ section{padding:96px 5vw;}
 .s-title.w{color:#fff;}
 .s-title.w em{color:rgba(255,255,255,0.65);}
 .s-desc{font-size:15px;color:var(--mink);line-height:1.9;max-width:480px;font-weight:300;}
+.lead{font-size:16px;color:var(--mink);line-height:1.85;font-weight:300;max-width:540px;}
+.tag-center{justify-content:center;}
+.tag-center::before{display:none;}
 
 /* ══════════════════════════════════════════
    MARQUEE RIBBON
@@ -928,4 +935,36 @@ footer{background:#0C0F08;padding:80px 5vw 36px;}
   .tstrip-inner{flex-direction:column;align-items:flex-start;}
   .footer-grid{grid-template-columns:1fr;}
   .hero-cards{gap:8px;}
+}
+.section-py {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.tag::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+.tag-center {
+  justify-content: center;
+}
+
+.tag-center::before {
+  display: none;
 }

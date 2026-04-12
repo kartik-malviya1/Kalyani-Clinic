@@ -1,41 +1,46 @@
-"use client"
+"use client";
 
-import { useScrollReveal } from "@/hooks/use-scroll-reveal"
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Their honest approach and the naturalness of the results genuinely impressed me. I've been to several clinics in Bhopal before — DermaGnathix is on a completely different level. No unnecessary upselling, just real results.",
-    initials: "VD",
-    name: "Vikram Desai",
+    text: "I had a wonderful experience at the derma clinic from Dr. Vivek Choudhary. He is extremely careful and patient, taking time to understand your skin concerns and explaining every step of the treatment in detail. I never felt rushed and felt completely comfortable throughout the process. I underwent the yellow chemical peel, and the results were amazing my skin looks brighter, clearer, and more even-toned. The improvement was visible within a short time, and the healing was smooth under his guidance. Truly grateful for his expertise and genuine care. Highly recommended!",
+    initials: "AV",
+    name: "Abhishek Verma",
   },
   {
-    text: "The treatments are highly effective and Dr. Annu Priya takes the time to explain everything thoroughly. I always leave feeling genuinely informed and cared for — not just another patient number.",
-    initials: "PS",
-    name: "Priya Sharma",
+    text: 'I was struggled with severe acne for over 6 month and it was taking a serous toll on my confidence and skin health. I was referred to Dr. Vivek Chaudhary and he greeted me with a warm smile, and said "well fix this together". That meant the world.The staff amazing.... Receptionist remembered my name every visit. Nurse explained every step before applying treatment.Thank you so much Sir and staff, finally we fixed this together 😊 .Now 90% of my acne has been treated, and the remaining is under treatment. I\'m confident it will clear up soon too!',
+    initials: "NY",
+    name: "Nishu Yadav",
     delay: "reveal-d1",
   },
   {
-    text: "My acne was a persistent problem for years with no lasting results elsewhere. After starting treatment at DermaGnathix, the change has been remarkable. I only wish I had come sooner.",
-    initials: "RS",
-    name: "Rohit Sinha",
+    text: "I cannot express enough how thrilled I am with the results of my laser hair reduction! Honestly, it feels like a life-changing experience. From the very first session, I could see a dramatic difference – the stubborn hair that I struggled with for years started disappearing, and now my skin feels silky-smooth, flawless, and absolutely radiant.I would highly, highly recommend him to anyone who has ever felt insecure or frustrated because of unwanted hair. Don’t wait – this is hands down the best decision you can make for yourself.",
+    initials: "KS",
+    name: "Kratika Singh",
     delay: "reveal-d2",
   },
   {
-    text: "The entire team is supportive and professional. I was nervous before my procedure but felt completely comfortable throughout. Truly compassionate and expert care from start to finish.",
-    initials: "AM",
-    name: "Anjali Mehta",
+    text: "Hey everyone,I am Tejeswarao and iam from Andhrapradesh,I have a complete baldness before consulting this hospital,I did my hair transplant in this hospital,I got a very very best results in decent time,I love the hospitality of the complete staff,I want to thankful to the great surgeon Vivek Choudhary sir,he is very polite,so many of friends suggested this hospital and finally I also experienced what my friends told.Dr.vivek Choudary sir is very friendly,I completely love his work,He loves his profession.Dr.vivek choudhary sir responds to my every calls and messages to my every single problem after and before my hair transplant surgery and He asks me to know how my hair growth is.Finally I experienced very very best memories in this year with this hospital because Dr choudhary sir completely changes my look.I surely suggest this hospital for every problem to your skin and hair.THANK YOU DR.VIVEK CHOUDHARY SIR 🙏🙏🙏",
+    initials: "TT",
+    name: "Tejeswarao Thandra",
     delay: "reveal-d3",
   },
-]
+];
 
 export function TestimonialsSection() {
-  const revealRef = useScrollReveal()
+  const revealRef = useScrollReveal();
 
   return (
     <section className="testi-sec" id="testimonials">
       <div className="reveal" ref={revealRef}>
         <div className="s-label">Patient Stories</div>
-        <h2 className="s-title">Heard it from<br /><em>our patients</em></h2>
+        <h2 className="s-title">
+          Heard it from
+          <br />
+          <em>our patients</em>
+        </h2>
       </div>
       <div className="testi-grid">
         {testimonials.map((testimonial, index) => (
@@ -43,18 +48,23 @@ export function TestimonialsSection() {
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 interface TestimonialCardProps {
-  text: string
-  initials: string
-  name: string
-  delay?: string
+  text: string;
+  initials: string;
+  name: string;
+  delay?: string;
 }
 
-function TestimonialCard({ text, initials, name, delay = "" }: TestimonialCardProps) {
-  const revealRef = useScrollReveal()
+function TestimonialCard({
+  text,
+  initials,
+  name,
+  delay = "",
+}: TestimonialCardProps) {
+  const revealRef = useScrollReveal();
 
   return (
     <div className={`tcard reveal ${delay}`} ref={revealRef}>
@@ -64,9 +74,15 @@ function TestimonialCard({ text, initials, name, delay = "" }: TestimonialCardPr
         <div className="tcard-av">{initials}</div>
         <div>
           <div className="tcard-name">{name}</div>
-          <div className="tcard-stars">★★★★★</div>
+          <div className="flex">
+            <Star size={14} className="fill-gold text-gold" />
+            <Star size={14} className="fill-gold text-gold" />
+            <Star size={14} className="fill-gold text-gold" />
+            <Star size={14} className="fill-gold text-gold" />
+            <Star size={14} className="fill-gold text-gold" />
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

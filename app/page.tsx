@@ -40,10 +40,10 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       {/* <TreatmentStrip /> */}
-      <BeforeAfterSection />
+      {/* <BeforeAfterSection /> */}
       <WhyUsSection />
       <TestimonialsSection />
-      {/* <GallerySection /> */}
+      <GallerySection />
       {/* <BlogSection /> */}
       <FaqSection />
       <CtaSection />

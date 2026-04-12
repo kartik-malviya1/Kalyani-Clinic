@@ -22,12 +22,11 @@ const results = [
     delay: "reveal-d1",
   },
   {
-    beforeImg:
-      "https://images.unsplash.com/photo-1560343776-97e7d202ff0e?w=400&q=80",
+    beforeImg: "/hairt.png",
     afterImg:
       "https://images.unsplash.com/photo-1605497787368-8a7e7c80a88d?w=400&q=80",
-    name: "Hair Transplant · FUE Method",
-    sub: "3000 grafts · 12-month result",
+    name: "Hair Transplant",
+    sub: " 12-month result",
     delay: "reveal-d2",
   },
 ];

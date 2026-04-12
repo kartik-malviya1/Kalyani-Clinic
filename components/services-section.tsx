@@ -1,14 +1,13 @@
 "use client";
 
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import Image from "next/image";
 
 const services = [
   {
     num: "01",
     title: "Skin Treatment",
     image:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-2szhk3reij.jpg",
     description:
       "Medical-grade care for acne, pigmentation, melasma, psoriasis, eczema, and complex dermatological conditions.",
     chips: ["Acne", "Melasma", "Pigmentation", "Scars"],
@@ -16,8 +15,7 @@ const services = [
   {
     num: "02",
     title: "Hair Treatment",
-    image:
-      "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80",
+    image: "/hairt.png",
     description:
       "Hair fall management, alopecia, PRP therapy, and surgical hair transplant using both FUE and FUT techniques.",
     chips: ["PRP Therapy", "FUE", "FUT", "Alopecia"],
@@ -27,7 +25,7 @@ const services = [
     num: "03",
     title: "Dermatosurgery",
     image:
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-cp5b4t8zz1.jpg",
     description:
       "Precision surgical procedures — acne scar reduction, laser hair removal, wart & mole removal, keloid surgery.",
     chips: ["Laser", "Wart Removal", "Keloid", "DPN"],
@@ -37,7 +35,7 @@ const services = [
     num: "04",
     title: "Anti-Ageing & Aesthetics",
     image:
-      "https://images.unsplash.com/photo-1513069772506-d1eb2cd7e338?w=600&q=80",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-vxn01w97ya.jpg",
     description:
       "Medical aesthetics including Botox, dermal fillers, and laser skin rejuvenation for natural, refreshed results.",
     chips: ["Botox", "Fillers", "Laser Toning", "Rejuvenation"],
@@ -46,7 +44,7 @@ const services = [
     num: "05",
     title: "Clinical Dermatology",
     image:
-      "https://images.unsplash.com/photo-1627389955646-6596047473d7?w=600&q=80",
+      "https://images.jdmagicbox.com/v2/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-ro1fvku8tb.jpg",
     description:
       "Comprehensive diagnosis and management of chronic skin conditions with an evidence-based medical approach.",
     chips: ["Eczema", "Psoriasis", "Vitiligo", "Allergies"],
@@ -56,7 +54,7 @@ const services = [
     num: "06",
     title: "Lasers & Nail Treatment",
     image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-s1unf08slh.jpg",
     description:
       "Advanced laser platforms for resurfacing, pigmentation, skin tightening, and comprehensive nail disorder treatment.",
     chips: ["CO₂ Laser", "Q-Switch", "Nail Disorders", "Vitiligo"],
@@ -80,8 +78,9 @@ export function ServicesSection() {
           </h2>
         </div>
         <p className="s-desc reveal reveal-d1" ref={revealRef2}>
-          From everyday dermatology to advanced aesthetic and laser procedures — each treatment
-          is personalised, evidence-based, and delivered with genuine care.
+          From everyday dermatology to advanced aesthetic and laser procedures —
+          each treatment is personalised, evidence-based, and delivered with
+          genuine care.
         </p>
       </div>
       <div className="services-grid">

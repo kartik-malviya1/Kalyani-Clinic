@@ -6,33 +6,43 @@ import Image from "next/image";
 const galleryItems = [
   {
     image:
-      "https://images.unsplash.com/photo-1612965607446-25e1332775ae?w=800&q=80",
-    label: "Clinic Reception",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1584515933487-779824d29309?w=500&q=80",
-    label: "Vitiligo Surgery",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=500&q=80",
-    label: "Laser Procedure",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&q=80",
-    label: "Treatment Chamber",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&q=80",
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lESCKOTg4c0d4PBq9mrEAvP1k_CaOLpEQK7YS4L6-07TBl2JBwYXTeGgppQlDFQMFLB3pxN0iVpuigR8Y5tdIqyNQMYiQxfmr35c5Iy3NYqbyz2fcZ_MNS5BzchrYQn86qIQiAY=s3072-w3072-h1484-rw",
     label: "Hair Transplant",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=500&q=80",
-    label: "DPN Removal",
+      "https://lh3.googleusercontent.com/p/AF1QipMQKYWPp4emRH-6nJlcfgKTwKH0Zpe6OjpUWbxi=s1360-w1360-h1020-rw",
+    label: "Reception",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/p/AF1QipNuzceH5HRPWBdVyXoZ8cGrN8X5yHF7ha813DzQ=s1360-w1360-h1020-rw",
+    label: "Reception",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/geougc-cs/AMG9lER6WNUHKEGzhwzSBtPT2agcK6M5vb_JCK07D4wTbAQ8fvKyXDKK6F_CDs127Mu8eqH5zbBg1el_EUOVfqLERmavhRlUsVSsLvveSMPSf8lG9fWbIQ18TBUn3zT-EmF8ADLT8BQMHg=s3072-w3072-h1484-rw",
+    label: "Hair Transplant",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/p/AF1QipM-Wbmir2UtWIAqIPMleMJG7612YSM2YqEg1ZmJ=s1360-w1360-h1020-rw",
+    label: "Laser Treatment",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/p/AF1QipMPD2rTo4fBpQYeIfpLAg10Zinn5JLIQkKXkg5P=s1360-w1360-h1020-rw",
+    label: "Hair Treatment",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/p/AF1QipPWwXPLPAgxNMsv1qdnC2qKt8pHZ6NF2erQqn31=s1360-w1360-h1020-rw",
+    label: "",
+  },
+  {
+    image:
+      "https://lh3.googleusercontent.com/p/AF1QipMA35hYSHSSDW-RB4HIjtlrEiywLX2Haac0HAwz=s1360-w1360-h1020-rw",
+    label: "",
   },
 ];
 
