@@ -18,30 +18,30 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   title:
-    "The Derma Clinic | Dr. Vivek Choudhary — Best Dermatologist in Bhopal",
+    "Kalyani Diagnostic Centre & Skin Clinic | Dr. Ajay & Dr. Kalyani Raghuwanshi",
   description:
-    "Experience world-class clinical, aesthetic, and laser dermatology by Dr. Vivek Choudhary (MBBS, MD). Specializing in skin, hair, and cosmetic treatments in Bhopal.",
+    "Located in the heart of Gulmohar / Arera Colony, Bhopal, Kalyani Diagnostic Centre & Skin Clinic is a specialized centre for dermatology, aesthetic medicine, and diagnostic imaging.",
   keywords: [
     "Dermatologist in Bhopal",
     "Best Dermatologist in Bhopal",
     "Skin Specialist in Bhopal",
-    "The Derma Clinic",
-    "Dr. Vivek Choudhary",
-    "Laser Hair Removal Bhopal",
-    "Acne Treatment Bhopal",
-    "Hair Specialist Bhopal",
-    "Cosmetic Dermatology",
-    "Dermatologist near Aashima Mall",
+    "Radiologist in Bhopal",
+    "Kalyani Diagnostic Centre",
+    "Dr. Ajay Singh Raghuwanshi",
+    "Dr. Kalyani Chandrakant Raghuwanshi",
+    "Diagnostic Imaging",
+    "Hair Transplant Surgeon",
+    "FUT Hair Transplant Bhopal",
   ],
   icons: {
     icon: "/logo.png",
   },
   openGraph: {
-    title: "The Derma Clinic | Dr. Vivek Choudhary — Dermatologist in Bhopal",
+    title: "Kalyani Diagnostic Centre & Skin Clinic | Bhopal",
     description:
-      "Expert skin, hair, and laser treatments by Dr. Vivek Choudhary. Visit Bhopal's premier dermatology and cosmetic clinic.",
-    url: "https://the-derma-clinic.vercel.app", // Fallback URL
-    siteName: "The Derma Clinic",
+      "Expert skin, hair, laser treatments and high-accuracy diagnostic imaging.",
+    url: "https://kalyaniclinic.com", // Fallback URL
+    siteName: "Kalyani Diagnostic Centre & Skin Clinic",
     images: [
       {
         url: "/logo.png",

@@ -5,60 +5,55 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 const services = [
   {
     num: "01",
-    title: "Skin Treatment",
+    title: "Dermatology (Medical Skin Care)",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-2szhk3reij.jpg",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-ro1fvku8tb.jpg",
     description:
-      "Medical-grade care for acne, pigmentation, melasma, psoriasis, eczema, and complex dermatological conditions.",
-    chips: ["Acne", "Melasma", "Pigmentation", "Scars"],
+      "Comprehensive diagnosis and treatment of acute and chronic skin conditions, including acne, pigmentation, fungal infections, psoriasis, and eczema.",
+    chips: ["Acne", "Melasma", "Psoriasis", "Skin Infections"],
   },
   {
     num: "02",
-    title: "Hair Treatment",
+    title: "Hair & Scalp Treatments",
     image: "/hairt.png",
     description:
-      "Hair fall management, alopecia, PRP therapy, and surgical hair transplant using both FUE and FUT techniques.",
-    chips: ["PRP Therapy", "FUE", "FUT", "Alopecia"],
+      "Targeted solutions for hair fall, thinning, male & female pattern baldness, PRP therapy, dandruff, and scalp disorders. Root-cause treatment, not temporary solutions.",
+    chips: ["PRP Therapy", "Pattern Baldness", "Dandruff", "Hair Fall"],
     delay: "reveal-d1",
   },
   {
     num: "03",
-    title: "Dermatosurgery",
+    title: "Aesthetic & Cosmetic Dermatology",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-cp5b4t8zz1.jpg",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-vxn01w97ya.jpg",
     description:
-      "Precision surgical procedures — acne scar reduction, laser hair removal, wart & mole removal, keloid surgery.",
-    chips: ["Laser", "Wart Removal", "Keloid", "DPN"],
+      "Advanced procedures designed to improve skin quality. Laser hair removal, hydrafacial, chemical peels, acne scar correction, and anti-aging treatments.",
+    chips: ["Laser", "Hydrafacial", "Chemical Peels", "Anti-Aging"],
     delay: "reveal-d2",
   },
   {
     num: "04",
-    title: "Anti-Ageing & Aesthetics",
+    title: "Hair Transplant Centre",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-vxn01w97ya.jpg",
+      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-2szhk3reij.jpg",
     description:
-      "Medical aesthetics including Botox, dermal fillers, and laser skin rejuvenation for natural, refreshed results.",
-    chips: ["Botox", "Fillers", "Laser Toning", "Rejuvenation"],
+      "Offering FUT (Follicular Unit Transplantation) — a proven surgical method for permanent hair restoration with natural hairline design and high graft survival rate.",
+    chips: ["FUT Transplant", "Hair Restoration", "Surgical", "Permanent"],
   },
   {
     num: "05",
-    title: "Clinical Dermatology",
-    image:
-      "https://images.jdmagicbox.com/v2/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-ro1fvku8tb.jpg",
-    description:
-      "Comprehensive diagnosis and management of chronic skin conditions with an evidence-based medical approach.",
-    chips: ["Eczema", "Psoriasis", "Vitiligo", "Allergies"],
-    delay: "reveal-d1",
-  },
-  {
-    num: "06",
-    title: "Lasers & Nail Treatment",
+    title: "Diagnostic & Radiology Services",
     image:
       "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-s1unf08slh.jpg",
     description:
-      "Advanced laser platforms for resurfacing, pigmentation, skin tightening, and comprehensive nail disorder treatment.",
-    chips: ["CO₂ Laser", "Q-Switch", "Nail Disorders", "Vitiligo"],
-    delay: "reveal-d2",
+      "Accurate and timely imaging services, including Ultrasound / Sonography, Pregnancy & anomaly scans, and Color Doppler studies for precise medical decision-making.",
+    chips: [
+      "Ultrasound",
+      "Pregnancy Scans",
+      "Color Doppler",
+      "Early Detection",
+    ],
+    delay: "reveal-d1",
   },
 ];
 

@@ -6,35 +6,29 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question:
-      "What are the consultation timings of Dr. Vivek Choudhary for an appointment?",
+    question: "What is Radiology?",
     answer:
-      "The consultation timings for Dr. Vivek Choudhary may vary depending on the location and type of consultation. You can check his availability on his appointment calendar for booking a slot.\n\nHis general consultation hours are:\n\nMon - Sat\n06:00 PM - 09:00 PM",
+      "Radiology is a branch of medicine that uses medical imaging technology to diagnose and treat diseases. It allows doctors to see inside the human body to identify and understand illnesses or injuries.",
   },
   {
-    question: "How many sessions will I need for my treatment?",
+    question: "What is General Dermatology?",
     answer:
-      "The number of sessions depends on your specific condition, severity, and the treatment chosen. For example, laser hair removal typically requires 6–8 sessions, while acne treatments may need 4–6. Your doctor will provide a clear roadmap at your first consultation.",
+      "General dermatology is the branch of medicine concerned with the diagnosis and treatment of diseases of the skin, hair, and nails. A doctor who specializes in this field is called a dermatologist.",
   },
   {
-    question: "Are the procedures painful?",
+    question: "What are the clinic timings?",
     answer:
-      "Most procedures involve minimal discomfort. Topical anaesthetics are used before laser and surgical procedures to ensure you're comfortable. Our team walks you through every step and addresses all concerns before beginning.",
+      "The timings of Kalyani Diagnostic Centre & Skin Clinic are: Mon - Thu & Sat: 04:00 PM - 09:00 PM and Fri: 07:00 AM - 09:00 PM. We recommend booking an appointment in advance.",
   },
   {
-    question: "Do you treat teenage acne?",
+    question: "What services do you provide?",
     answer:
-      "Absolutely. We treat patients of all ages for acne. Our approach for teenagers focuses on gentle, effective treatments and skincare education — avoiding harsh regimens that can worsen skin in the long term.",
+      "We provide a comprehensive range of dermatology and radiology services including Laser Hair Removal, Fungal Infection treatment, Skin Allergy treatments, Acne treatments, Hair Loss treatment, Hair Transplant, Sonography, and Anomaly scans.",
   },
   {
-    question: "Do you treat vitiligo?",
+    question: "Who are the consulting doctors?",
     answer:
-      "Yes. We offer vitiligo surgery and phototherapy as part of our vitiligo management programme. The appropriate treatment depends on extent, location, and stability — all assessed at consultation.",
-  },
-  {
-    question: "How long do Botox and fillers last?",
-    answer:
-      "Botox results typically last 4–6 months before a top-up session. Fillers can last 6 months to 2 years depending on the type and area. We use only premium-grade, clinically approved products.",
+      "Our clinic is spearheaded by Dr. Ajay Singh Raghuwanshi, an experienced Dermatologist, Pediatric Dermatologist, and Cosmetologist, alongside Dr. Kalyani Chandrakant Raghuwanshi, a highly qualified Radiologist specializing in advanced diagnostic scans.",
   },
 ];
 

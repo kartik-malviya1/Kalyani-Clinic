@@ -5,26 +5,26 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    text: "I had a wonderful experience at the derma clinic from Dr. Vivek Choudhary. He is extremely careful and patient, taking time to understand your skin concerns and explaining every step of the treatment in detail. I never felt rushed and felt completely comfortable throughout the process. I underwent the yellow chemical peel, and the results were amazing my skin looks brighter, clearer, and more even-toned. The improvement was visible within a short time, and the healing was smooth under his guidance. Truly grateful for his expertise and genuine care. Highly recommended!",
-    initials: "AV",
-    name: "Abhishek Verma",
+    text: "I had a wonderful experience at Kalyani Diagnostic Centre with Dr. Kalyani Raghuwanshi. The clinic is well-maintained, and the staff is very courteous and professional. Dr. Kalyani is highly knowledgeable and takes the time to explain everything in detail, ensuring that patients feel comfortable and well-informed. The diagnostic services are efficient, and the reports are accurate and delivered on time. The overall environment is clean and well-organized, making the entire process smooth and hassle-free. I truly appreciate the excellent care and professionalism displayed by the entire team. Highly recommended for anyone seeking reliable diagnostic services in a patient-friendly atmosphere!",
+    initials: "GB",
+    name: "Gourav Bhati",
   },
   {
-    text: 'I was struggled with severe acne for over 6 month and it was taking a serous toll on my confidence and skin health. I was referred to Dr. Vivek Chaudhary and he greeted me with a warm smile, and said "well fix this together". That meant the world.The staff amazing.... Receptionist remembered my name every visit. Nurse explained every step before applying treatment.Thank you so much Sir and staff, finally we fixed this together 😊 .Now 90% of my acne has been treated, and the remaining is under treatment. I\'m confident it will clear up soon too!',
-    initials: "NY",
-    name: "Nishu Yadav",
+    text: "Dr Kalyani, is a thorough professional, very good approach towards patients. Handles a very good and trained staff, with a state of the art facility enabling a quick scan Very hygienic and clean center which follows all the required corona protocols.My diagnosis was handled very well with utmost care to the questions and doubts I had on the same, which were answered very well. Highly recommended.",
+    initials: "AR",
+    name: "Aditi Raghuwanshi",
     delay: "reveal-d1",
   },
   {
-    text: "I cannot express enough how thrilled I am with the results of my laser hair reduction! Honestly, it feels like a life-changing experience. From the very first session, I could see a dramatic difference – the stubborn hair that I struggled with for years started disappearing, and now my skin feels silky-smooth, flawless, and absolutely radiant.I would highly, highly recommend him to anyone who has ever felt insecure or frustrated because of unwanted hair. Don’t wait – this is hands down the best decision you can make for yourself.",
-    initials: "KS",
-    name: "Kratika Singh",
+    text: "Ma'am is so skilled that the findings in my sonography done by kalyani mam, which were missed at other two sonography centers that I visited before, was accurate and lead to early diagnosis of my disease and its treatment. The report was so detailed and even scan was very fast and comfortable with no pain and no hesitation experienced by me. Mam is very polite in nature and takes full history and understands the problem before scanning in detail and with very precision.",
+    initials: "GM",
+    name: "Garima M",
     delay: "reveal-d2",
   },
   {
-    text: "Hey everyone,I am Tejeswarao and iam from Andhrapradesh,I have a complete baldness before consulting this hospital,I did my hair transplant in this hospital,I got a very very best results in decent time,I love the hospitality of the complete staff,I want to thankful to the great surgeon Vivek Choudhary sir,he is very polite,so many of friends suggested this hospital and finally I also experienced what my friends told.Dr.vivek Choudary sir is very friendly,I completely love his work,He loves his profession.Dr.vivek choudhary sir responds to my every calls and messages to my every single problem after and before my hair transplant surgery and He asks me to know how my hair growth is.Finally I experienced very very best memories in this year with this hospital because Dr choudhary sir completely changes my look.I surely suggest this hospital for every problem to your skin and hair.THANK YOU DR.VIVEK CHOUDHARY SIR 🙏🙏🙏",
-    initials: "TT",
-    name: "Tejeswarao Thandra",
+    text: "I would like to sincerely thank my doctor for their exceptional care and professionalism. They listened to me attentively, answered all of my questions with patience, and provided a treatment plan that truly helped me for my skin lightening treatment. Their calm and compassionate attitude made me feel comfortable and confident throughout the process. The clinic was also clean and well-organized, which added to the overall positive experience. I’m extremely satisfied with the care I received and would highly recommend this doctor to anyone in need of medical attentive and who needs skin whitening treatment in bhopal",
+    initials: "PR",
+    name: "Prachi rajput",
     delay: "reveal-d3",
   },
 ];

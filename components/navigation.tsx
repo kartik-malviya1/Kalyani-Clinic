@@ -22,8 +22,8 @@ export function Navigation({ menuOpen, toggleMenu }: NavigationProps) {
   return (
     <nav id="nav" className={scrolled ? "scrolled" : ""}>
       <Link href="#" className="nav-logo">
-        <span className="nav-logo-name">The Derma Clinic</span>
-        <span className="nav-logo-sub">by Dr. Vivek Choudhary</span>
+        <span className="nav-logo-name">Kalyani Diagnostic Centre</span>
+        <span className="nav-logo-sub">& Skin Clinic</span>
       </Link>
       <ul className="nav-links">
         <li>
