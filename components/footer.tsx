@@ -19,7 +19,7 @@ const quickLinks = [
 ];
 
 const contactLinks = [
-  { label: "Phone: +91 6262968686", href: "tel:+916262968686" },
+  { label: "Phone: +91 09297868686", href: "tel:+919297868686" },
   { label: "Instagram", href: "#" },
   { label: "Facebook", href: "#" },
   {
