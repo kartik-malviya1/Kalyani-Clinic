@@ -37,7 +37,7 @@ export function AboutSection() {
           pubText="Clinical Dermatology · Cosmetology · Acne & Scar Management · Hair Loss Treatments · Laser Therapies · Anti-aging Treatments"
         />
         <DoctorCard
-          image="/dr-kalyani1.jpeg"
+          image="/dr-kalyani3.jpeg"
           badge="Consultant Radiologist"
           name="Dr. Kalyani Raghuwanshi"
           role="MBBS · MD (Radiodiagnosis)"
