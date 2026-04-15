@@ -1,13 +1,12 @@
 "use client";
 
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import Image from "next/image";
 
 const galleryItems = [
   {
     image:
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lESCKOTg4c0d4PBq9mrEAvP1k_CaOLpEQK7YS4L6-07TBl2JBwYXTeGgppQlDFQMFLB3pxN0iVpuigR8Y5tdIqyNQMYiQxfmr35c5Iy3NYqbyz2fcZ_MNS5BzchrYQn86qIQiAY=s3072-w3072-h1484-rw",
-    label: "Hair Transplant",
+      "https://images.jdmagicbox.com/comp/bhopal/u4/0755px755.x755.210606143340.d1u4/catalogue/dr-ajay-singh-raghuwanshi-skin-and-you-clinic-arera-colony-bhopal-skin-care-clinics-lsj9duqnr9.jpg",
+    label: "Archievements & Awards",
   },
   {
     image:
@@ -41,7 +40,7 @@ const galleryItems = [
   },
   {
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipMA35hYSHSSDW-RB4HIjtlrEiywLX2Haac0HAwz=s1360-w1360-h1020-rw",
+      "https://images.jdmagicbox.com/comp/bhopal/u4/0755px755.x755.210606143340.d1u4/catalogue/-9s3e1586go.jpg",
     label: "",
   },
 ];

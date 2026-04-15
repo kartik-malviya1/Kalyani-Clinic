@@ -191,11 +191,11 @@ a{text-decoration:none;}
 }
 .hero-bg{
   position:absolute;inset:0;
-  background:url('/img.png') center/cover no-repeat;
+  background:url('/waiting.jpg') center/cover no-repeat;
 }
 .hero-overlay{
   position:absolute;inset:0;
-  background:rgba(0,0,0,0.60);
+  background:rgba(0,0,0,0.50);
   z-index: 1;
 }
 /* Animated noise grain */

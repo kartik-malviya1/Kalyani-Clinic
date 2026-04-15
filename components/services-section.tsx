@@ -44,6 +44,22 @@ const services = [
     num: "05",
     title: "Diagnostic & Radiology Services",
     image:
+      "https://images.jdmagicbox.com/v2/comp/service_catalogue/laser-mole-removal-treatment-0755px755.x755.210606143340.d1u4-587upt3.jpg",
+    description:
+      "Laser mole removal is a dermatological treatment that uses focused laser energy to break down and remove unwanted moles from the skin with precision and minimal damage to surrounding tissue.",
+
+    chips: [
+      "Laser Mole Removal",
+      "Non-Surgical",
+      "Precise Treatment",
+      "Minimal Downtime",
+    ],
+    delay: "reveal-d1",
+  },
+  {
+    num: "06",
+    title: "Diagnostic & Radiology Services",
+    image:
       "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-s1unf08slh.jpg",
     description:
       "Accurate and timely imaging services, including Ultrasound / Sonography, Pregnancy & anomaly scans, and Color Doppler studies for precise medical decision-making.",
@@ -72,11 +88,11 @@ export function ServicesSection() {
             <em>needs, in one place</em>
           </h2>
         </div>
-        <p className="s-desc reveal reveal-d1" ref={revealRef2}>
+        {/* <p className="s-desc reveal reveal-d1" ref={revealRef2}>
           From everyday dermatology to advanced aesthetic and laser procedures —
           each treatment is personalised, evidence-based, and delivered with
           genuine care.
-        </p>
+        </p> */}
       </div>
       <div className="services-grid">
         {services.map((service) => (
