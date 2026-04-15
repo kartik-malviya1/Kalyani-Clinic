@@ -5,27 +5,25 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 const services = [
   {
     num: "01",
-    title: "Dermatology (Medical Skin Care)",
-    image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-ro1fvku8tb.jpg",
-    description:
-      "Comprehensive diagnosis and treatment of acute and chronic skin conditions, including acne, pigmentation, fungal infections, psoriasis, and eczema.",
+    title: "Clinical Dermatology",
+    image: "/Clinical-Dermatology.png",
+    description: "Precision-led treatment for medical skin conditions.",
     chips: ["Acne", "Melasma", "Psoriasis", "Skin Infections"],
   },
   {
     num: "02",
-    title: "Hair & Scalp Treatments",
-    image: "/hairt.png",
+    title: "Hair Restoration & Trichology",
+    image: "/hair-treatment.png",
     description:
-      "Targeted solutions for hair fall, thinning, male & female pattern baldness, PRP therapy, dandruff, and scalp disorders. Root-cause treatment, not temporary solutions.",
+      "Targeted solutions for hair loss, thinning, and scalp disorders",
     chips: ["PRP Therapy", "Pattern Baldness", "Dandruff", "Hair Fall"],
     delay: "reveal-d1",
   },
   {
     num: "03",
-    title: "Aesthetic & Cosmetic Dermatology",
+    title: "Laser & Procedural Treatments",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-vxn01w97ya.jpg",
+      "https://images.unsplash.com/flagged/photo-1577081410894-c26514fc2b76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Advanced procedures designed to improve skin quality. Laser hair removal, hydrafacial, chemical peels, acne scar correction, and anti-aging treatments.",
     chips: ["Laser", "Hydrafacial", "Chemical Peels", "Anti-Aging"],
@@ -33,16 +31,15 @@ const services = [
   },
   {
     num: "04",
-    title: "Hair Transplant Centre",
+    title: "Cosmetic Procedure",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-2szhk3reij.jpg",
-    description:
-      "Offering FUT (Follicular Unit Transplantation) — a proven surgical method for permanent hair restoration with natural hairline design and high graft survival rate.",
-    chips: ["FUT Transplant", "Hair Restoration", "Surgical", "Permanent"],
+      "https://images.unsplash.com/photo-1761718210089-ba3bb5ccb54f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Facial Peel.",
+    chips: ["Facial Peel", "Natural Radiant", "Glow"],
   },
   {
     num: "05",
-    title: "Diagnostic & Radiology Services",
+    title: "Laser mole removal",
     image:
       "https://images.jdmagicbox.com/v2/comp/service_catalogue/laser-mole-removal-treatment-0755px755.x755.210606143340.d1u4-587upt3.jpg",
     description:
@@ -58,9 +55,9 @@ const services = [
   },
   {
     num: "06",
-    title: "Diagnostic & Radiology Services",
+    title: "Diagnostic Imaging & Sonography",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-s1unf08slh.jpg",
+      "https://images.pexels.com/photos/7108421/pexels-photo-7108421.jpeg?_gl=1*1x7k2vh*_ga*MTczNzA5NjcxMC4xNzU3NTM0MDE2*_ga_8JE65Q40S6*czE3NzYyNDE5MDAkbzMzJGcwJHQxNzc2MjQxOTAwJGo2MCRsMCRoMA..",
     description:
       "Accurate and timely imaging services, including Ultrasound / Sonography, Pregnancy & anomaly scans, and Color Doppler studies for precise medical decision-making.",
     chips: [

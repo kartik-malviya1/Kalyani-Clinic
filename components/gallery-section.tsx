@@ -6,36 +6,31 @@ const galleryItems = [
   {
     image:
       "https://images.jdmagicbox.com/comp/bhopal/u4/0755px755.x755.210606143340.d1u4/catalogue/dr-ajay-singh-raghuwanshi-skin-and-you-clinic-arera-colony-bhopal-skin-care-clinics-lsj9duqnr9.jpg",
-    label: "Archievements & Awards",
+    label: "Awards",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipMQKYWPp4emRH-6nJlcfgKTwKH0Zpe6OjpUWbxi=s1360-w1360-h1020-rw",
+    image: "/reception.webp",
     label: "Reception",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipNuzceH5HRPWBdVyXoZ8cGrN8X5yHF7ha813DzQ=s1360-w1360-h1020-rw",
+    image: "/reception1.webp",
     label: "Reception",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lER6WNUHKEGzhwzSBtPT2agcK6M5vb_JCK07D4wTbAQ8fvKyXDKK6F_CDs127Mu8eqH5zbBg1el_EUOVfqLERmavhRlUsVSsLvveSMPSf8lG9fWbIQ18TBUn3zT-EmF8ADLT8BQMHg=s3072-w3072-h1484-rw",
-    label: "Hair Transplant",
+    image: "cabin1.webp",
+    label: "",
+  },
+  {
+    image: "cabin2.jpg",
+    label: "",
+  },
+  {
+    image: "bgkalyani.jpeg",
+    label: "",
   },
   {
     image:
-      "https://lh3.googleusercontent.com/p/AF1QipM-Wbmir2UtWIAqIPMleMJG7612YSM2YqEg1ZmJ=s1360-w1360-h1020-rw",
-    label: "Laser Treatment",
-  },
-  {
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipMPD2rTo4fBpQYeIfpLAg10Zinn5JLIQkKXkg5P=s1360-w1360-h1020-rw",
-    label: "Hair Treatment",
-  },
-  {
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipPWwXPLPAgxNMsv1qdnC2qKt8pHZ6NF2erQqn31=s1360-w1360-h1020-rw",
+      "https://images1-fabric.practo.com/practices/1293130/kalyani-diagnostic-centre-skin-clinic-bhopal-67f79ce5ebad8.jpeg",
     label: "",
   },
   {

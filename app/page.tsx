@@ -36,7 +36,7 @@ export default function Home() {
       <MobileMenu isOpen={menuOpen} onClose={closeMobile} />
       <Navigation menuOpen={menuOpen} toggleMenu={toggleMenu} />
       <Hero />
-      <Ribbon />
+      {/* <Ribbon /> */}
       <AboutSection />
       <ServicesSection />
       {/* <TreatmentStrip /> */}
