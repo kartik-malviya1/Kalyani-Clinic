@@ -14,12 +14,15 @@ export function AboutSection() {
           Expertise you can <em>trust.</em>
         </h2>
         <p className="s-desc">
-          Kalyani Diagnostic Centre & Skin Clinic is built on a comprehensive approach to health — bringing together expert Radiology and Dermatology. What you get is a depth of diagnostic and clinical care under one roof.
+          Kalyani Diagnostic Centre & Skin Clinic is built on a comprehensive
+          approach to health — bringing together expert Radiology and
+          Dermatology. What you get is a depth of diagnostic and clinical care
+          under one roof.
         </p>
       </div>
       <div className="doctors-wrap">
         <DoctorCard
-          image="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=700&q=85"
+          image="/drajay.png"
           badge="Consultant Dermatologist"
           name="Dr. Ajay Singh Raghuwanshi"
           role="MBBS · MD (Dermatology)"
@@ -34,7 +37,7 @@ export function AboutSection() {
           pubText="Clinical Dermatology · Cosmetology · Acne & Scar Management · Hair Loss Treatments · Laser Therapies · Anti-aging Treatments"
         />
         <DoctorCard
-          image="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=700&q=85"
+          image="/dr-kalyani1.jpeg"
           badge="Consultant Radiologist"
           name="Dr. Kalyani Raghuwanshi"
           role="MBBS · MD (Radiodiagnosis)"
